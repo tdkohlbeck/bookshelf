@@ -41,7 +41,7 @@ for x in range(0, DOC_COUNT):
         print('could not GET ' + test_url)
 
 
-stoplist = set('for a of the and to in at can - your i so should it\'s but { we each it that / '.split())
+stoplist = set('for a of the and to in at can - your i so should it\'s but { we each it that / is must with you this = on 1 2 3 4 5 6 7 8 9 0 must into '.split())
 docs = [
     [ word for word in document.lower().split() if word not in stoplist ]
     for document in docs
